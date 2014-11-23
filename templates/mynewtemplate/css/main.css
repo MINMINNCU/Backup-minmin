@@ -1,0 +1,292 @@
+body{ 
+}
+
+ul{
+	list-style-type:none;
+}
+div.genericItemView{
+	border:0px;
+}
+
+div.itemSocialSharing{
+	visibility:hidden;
+}
+
+div.itemAuthorBlock{
+	visibility:hidden;	
+}
+/*popup*/
+.underOverlay{
+/*disable scroll of the pagr which under the overlayer*/
+	overflow:hidden;
+}
+#colorbox{
+	z-index: 5;
+	
+}
+#colorbox:focus{
+	outline-width: 0px;
+}
+#cboxClose{
+	border: 0;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	background: transparent url("../images/controls.png") no-repeat 0 0;
+	cursor:pointer;
+	background-position: -96px 0;
+	top: 14px;
+	right: 15px;
+	opacity: .3;
+}
+iframe.cboxIframe{
+	width: 100%;
+	height: 100%;
+	overflow-x:hidden;
+
+}
+#k2Container{
+}
+#cboxOverlay{
+	position: fixed;
+	display: block;
+	top:0px;
+	left:0px;
+	background-color: #f3f3f3;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+}
+#cboxWrapper{
+	background-color: #f3f3f3;
+	opacity: 1;
+}
+/* item */
+
+.ditem{
+	position: relative;
+	z-index: 1;
+}
+li.ditem.shown{
+
+	padding: 20px;
+}
+.ditem:hover{
+	/*border: 3px solid rgb(2,202,176);*/
+	background: rgba(255,255,255,0.9);
+	z-index: 2;
+	min-width:25%;
+	max-width: 50%;
+	width: auto;
+}
+
+.mainitem,.comments {   
+	color: black;
+	font-size: 16px;
+	display: inline;
+	float: left;
+}
+.comments{
+	margin-left: 20px;
+}
+
+.tagbox{
+	margin: 10px 0px 10px 0px;
+}
+.mainitem > .tagbox *{
+	display: inline;
+	
+}
+
+.mainitem .tag{
+	border-radius: 2px;
+	background: #f5f5f5;
+	border:1px solid #e3e3e3;
+	padding: 4px;
+	margin: 0px 3px 3px 0px;
+	float:left;
+	display: inline;	
+}
+
+#quo{
+	margin-top: 3px;
+    margin-right: 10px;
+}
+
+.numOfComments{
+	margin-top: 5px;
+	margin-left: 160px;
+	text-align: left;
+}
+
+/*center*/
+#centerBlock{
+	text-align: center;
+	position: fixed;
+	top:10%;
+	left:34%;
+	width:20%;
+}
+
+.centerBtn{
+	cursor:pointer;
+	display:block;
+	width:100%;
+	position: relative;
+	top:-100px;
+}
+.searchBtn{
+	position: relative;
+	top:100px;
+	width: 80%;
+	left:20px;
+}
+#centerPost{
+	position: relative;
+	top:-300px;
+	width:80%;
+	left:20px;
+}
+.k2SearchBlock{
+	display: none;
+
+}
+.homeImg>img{
+	width:60%;
+}
+
+.quotation{
+	border:2px solid #e3e3e3;
+	margin:6px;
+
+}
+/*register*/
+.admintable{
+margin: 0px auto;
+
+}
+.k2AccountPage{
+line-height:40px; 
+}
+.k2AccountPageNotice{
+text-align: center;
+}
+
+.k2AccountPageUpdate{
+float: none;
+text-align:center; 
+}
+
+.name{
+border: 2px solid #D4D0C8;
+width: 350px;
+font-size: 25px;
+text-align: left;
+font-family: Arial;
+border-radius: 4px;
+line-height: 35px;
+}
+
+.registerAccount{
+border: 2px solid #D4D0C8;
+width: 350px;
+font-size: 25px;
+text-align: left;
+font-family: Arial;
+border-radius: 4px;
+line-height: 35px;
+}
+
+.registerEmail{
+border: 2px solid #D4D0C8;
+width: 350px;
+font-size: 25px;
+font-family: Arial;
+border-radius: 4px;
+line-height: 35px;
+
+}.registerEmail2{
+border: 2px solid #D4D0C8;
+width: 350px;
+font-size: 25px;
+font-family: Arial;
+border-radius: 4px;
+line-height: 35px;
+}
+
+
+.registerPassword{
+border: 2px solid #D4D0C8;
+width: 350px;
+font-size: 25px;
+font-family: Arial;
+border-radius: 4px;
+line-height: 35px;
+}
+
+.registerPassword2{
+border: 2px solid #D4D0C8;
+width: 350px;
+font-size: 25px;
+font-family: Microsoft jhengHei, ;
+font-family: Arial;
+border-radius: 4px;
+line-height: 35px;
+}
+
+::-webkit-input-placeholder {
+padding-left: 10px;
+   
+}
+
+.buttonRegister{
+background-color:#44c767;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+border:1px solid #18ab29;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-size:17px;
+padding:13px 16px;
+text-decoration:none;
+text-shadow:0px 1px 3px #2f6627;
+}
+.buttonRegister:hover {
+background-color:#5cbf2a;
+}
+.buttonRegister:active {
+position:relative;
+top:1px;
+}
+
+.itemFullText{
+text-align: center;
+}
+
+.itemHits{
+float: right;
+}
+
+.itemFacebookButton {
+}
+
+.itemNavigation{
+text-align: center;
+}
+
+.itemRatingBlock{
+display: none;
+}
+
+.k2FrontendToolbar{
+	float: left;
+}
+
+
+

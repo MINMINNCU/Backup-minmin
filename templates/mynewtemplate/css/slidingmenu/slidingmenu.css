@@ -1,0 +1,184 @@
+/*SLIDINGMENU.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This CSS file contains style rules for Sliding Menu*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Author: Designova.*/
+/* Website: http://www.designova.net */
+/* Copyright: (C) 2013 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*user*/
+
+.k2Avatar img{
+	border-radius: 50px;
+}
+.userInfo{
+	margin-left:70px;
+}
+.avatar{
+	float: left;
+}
+
+
+.sidebarmenu {
+	position: fixed;
+	right: -300px;
+	width: 350px;
+	height: 100%;
+	top: 0;
+	z-index: 10;
+	text-align: left;
+	overflow: auto;
+}
+.sidebarmenu.menu-open {
+	right: 0px;
+}
+
+.sm-wrap {
+	font-family:"OpenSansRegular";
+
+	opacity: 0.9;
+	position: absolute;
+	top: 0;
+	right: 0px;
+	background: #fff;
+	width: 300px;
+	height: 100%;
+	border-left: solid 1px #eee;	
+    padding: 20px 10px 10px 30px;
+    overflow: auto;
+}
+
+.sidebarmenu a {
+	/*color: #666;
+	display: block;
+	padding: 1.2em 1em 1.2em 1.8em;
+	outline: none;
+	border-bottom:solid 1px #efefef;
+	font-size: 0.8em;
+	font-family:"OpenSansRegular";
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 1px;
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;*/
+}
+
+.sidebarmenu a:hover {
+	color: #ccc !important;
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+		 -o-transition: all .3s ease-in-out;
+			transition: all .3s ease-in-out;
+}
+
+
+.menu-close {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	font-size: 14px;
+	color: #808080;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	top: 20px;
+	right: 5px;
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+		 -o-transition: all .3s ease-in-out;
+			transition: all .3s ease-in-out;
+}
+
+.menu-close:hover {
+	color: #ffffff;
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+		 -o-transition: all .3s ease-in-out;
+			transition: all .3s ease-in-out;
+}
+
+/* Push the body after clicking the menu button */
+.sliding {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+.sliding-toright {
+	right: 300px;
+}
+
+.sliding-toleft {
+	right: -300px;
+}
+
+.sidebarmenu,
+.sliding {
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+		 -o-transition: all .3s ease-in-out;
+			transition: all .3s ease-in-out;
+}
+
+.mastwrap-open
+{
+	opacity: 0.4;
+}
+
+.arrow-open{
+	background: url('../../images/slidingmenu/arrow_open.png') center center no-repeat;
+}
+
+.arrow-close{
+	background: url('../../images/slidingmenu/arrow_close.png') center center no-repeat;
+}
+
+#sm-trigger {
+	position: absolute;
+	top: 0;
+	left: 0;
+  	margin-top: 5px;
+	z-index: 11;
+	display: block;
+	opacity: 0.4;
+	text-align: center;
+	font-size: 14px;
+	width: 50px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+		 -o-transition: all .3s ease-in-out;
+			transition: all .3s ease-in-out;
+}
+/* notify */
+#nav{
+	height: 50px;
+}
+.tab{
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+.tab:hover,.tab_visited{
+	border: 2px solid rgb(100,255,200);
+	border-radius: 40px;	
+}
+.tab img{
+	width: 40px;
+	margin:3px 2px 1px 3px;
+}
+.subNotify{
+	margin-top: 10px;
+	float: left;
+}

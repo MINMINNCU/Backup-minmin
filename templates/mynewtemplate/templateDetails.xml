@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="template">
+        <name>mynewtemplate</name>
+        <creationDate>2014-08-07</creationDate>
+        <author>Charlene Chen</author>
+        <authorEmail>chnki23@gmail.com</authorEmail>
+        <authorUrl></authorUrl>
+        <copyright>Charlene Chen 2014</copyright>
+        <license>GNU/GPL</license>
+        <version>1.0.2</version>
+        <description>My New Template</description>
+        <files>
+                <filename>index.html</filename>
+                <filename>index.php</filename>
+                <filename>component.php</filename>
+                <filename>templateDetails.xml</filename>
+                <folder>bootstrap</folder>
+                <folder>images</folder>
+                <folder>css</folder>
+                <folder>javascripts</folder>
+        </files>
+        <positions>
+                <position>left</position>
+                <position>right</position>
+                <position>top</position>
+                <position>center</position>
+                <position>search</position>
+                <position>sidebar-menu</position>
+                <position>footer</position>
+        </positions>
+</extension>
